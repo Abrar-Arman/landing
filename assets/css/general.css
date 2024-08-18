@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 :root{
     --primary-bg-color:#545BE8;
@@ -11,11 +12,14 @@
     --primary-font:"Poppins", sans-serif;
     --secondary-font:"Inter", sans-serif;
 }
-div{
-    background-color: antiquewhite;
+ul{
+    list-style-type: none;
 }
+a{
+    text-decoration: none;
+}
+
 .container{
-    background-color: #545BE8;
     width: calc(100% - 120px);
     margin: 0 auto;
 }
